@@ -1,0 +1,60 @@
+img {
+    width: 300px;
+}
+
+.portada_mono {
+    background-image: url(../img/portada-webe.jpg);
+    background-position: top;
+    background-size: cover;
+
+    height: 100%;
+    width: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.portada_mono2 div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    width: 60%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 10px;
+    
+}
+
+@media (max-width: 670px) {
+    .column {
+        display: flex;
+        flex: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1600px) {
+    .column {
+        flex: 50%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

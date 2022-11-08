@@ -14,7 +14,7 @@
 .tarjeta__title {
     
     width: 300px;
-    height: 350px;
+    height: 50px;
     border-radius: 20px;
     padding: 15px;
 
@@ -22,4 +22,52 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.tarjeta__img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5%;
+    margin: 0;
+    position: relative;
+    overflow: auto;
+    background-size: cover;
+    background-position: center center;
+    padding: auto;
+
+
+}
+
+@media screen and (max-width:600px) {
+    .tarjeta__img {
+    width: 210px;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+}
+
+.tarjeta_img {
+    width: 250px;
+    height: 200px;
+    border-radius: 5%;
+    margin: 0rem;
+    position: auto;
+    overflow: auto;
+    background-size: cover;
+    background-position: center center;
+    padding: 0rem;
+    align-self: center;
+}
+
+@media screen and (max-width:600px) {
+    .tarjeta_img {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-self: center;
+}
 }
