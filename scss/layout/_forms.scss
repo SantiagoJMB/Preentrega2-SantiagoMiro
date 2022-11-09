@@ -1,0 +1,30 @@
+.form1 {
+padding: 30px;
+margin-top: 30px;
+
+}
+
+@media screen and (max-width:550px) {
+    .form1 {
+        
+        font-size-adjust: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        
+    }
+}
+
+@media screen and (max-width:550px) {
+    .form1 label {
+font-size: medium;    
+    }
+}
+
+
+.homeboton:visited {
+    color: white; 
+}
